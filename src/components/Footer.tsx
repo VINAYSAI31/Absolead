@@ -58,6 +58,18 @@ export const Footer: React.FC = () => {
               ))}
             </ul>
           </div>
+          <div>
+            <h3 className="text-xl font-bold mb-4">Industries</h3>
+            <ul className="space-y-2">
+              {['Information Technology', 'Healthcare & Pharma', 'Automobile','Manufacturing','Banking & Finance'].map((item, i) => (
+                <li key={i}>
+                  <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
+                    {item}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
           
           <div>
             <h3 className="text-xl font-bold mb-4">Services</h3>

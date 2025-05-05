@@ -3,7 +3,7 @@ import React from 'react';
 const Whatsapp: React.FC = () => {
   return (
     <a
-      href="https://wa.me/919999999999" // Replace with your WhatsApp number
+      href="https://wa.me/+917386191621" // Replace with your WhatsApp number
       className="fixed bottom-6 right-6 bg-green-500 w-16 h-16 rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition-transform duration-300 animate-bounce z-50"
       target="_blank"
       rel="noopener noreferrer"
