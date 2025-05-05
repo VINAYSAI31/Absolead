@@ -35,7 +35,7 @@ export const Header: React.FC = () => {
           <div className="flex items-center">
           <a href="/images/logo.png" className="flex items-center space-x-2 text-2xl font-bold text-blue-600">
   <img src="/images/logo.png" alt="Logo" className="h-20 w-24 object-contain" />
-  <span>AbsoLead</span>
+  <span>Absolead</span>
 </a>
 
           </div>

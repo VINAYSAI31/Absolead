@@ -49,7 +49,7 @@ export const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Company</h3>
             <ul className="space-y-2">
-              {['About Us', 'Our Team', 'Careers', 'Press', 'Blog'].map((item, i) => (
+              {['About Us'].map((item, i) => (
                 <li key={i}>
                   <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
                     {item}
@@ -62,7 +62,7 @@ export const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Services</h3>
             <ul className="space-y-2">
-              {['Marketing Strategy', 'SEO Optimization', 'Content Marketing', 'Social Media', 'Analytics'].map((item, i) => (
+              {['Recruitment Process Outsourcing ', 'Blue-Collar Hiring', 'Offshore Recruitment'].map((item, i) => (
                 <li key={i}>
                   <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
                     {item}
@@ -75,7 +75,7 @@ export const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Legal</h3>
             <ul className="space-y-2">
-              {['Privacy Policy', 'Terms of Service', 'Cookie Policy', 'GDPR Compliance', 'Sitemap'].map((item, i) => (
+              {['Privacy Policy', 'Terms of Service'].map((item, i) => (
                 <li key={i}>
                   <a href="#" className="text-gray-400 hover:text-white transition-colors duration-300">
                     {item}
