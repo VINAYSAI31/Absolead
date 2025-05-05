@@ -48,7 +48,7 @@ export const About: React.FC = () => {
               <h3 className="text-2xl md:text-3xl font-bold mb-6">
                 Who We Are
               </h3>
-              <p className="text-gray-600 mb-6">
+              <p className="text-gray-600 text-lg md:text-xl mb-6">
                 At Absolead, we bring structure, speed, and strategic insight to every hiring challenge. Our approach is rooted in understanding your business needs and aligning them with the right talent—whether in tech or non-tech roles. From early-stage startups to established enterprises, clients trust us for our reliability, industry expertise, and commitment to quality hiring outcomes.
               </p>
               
