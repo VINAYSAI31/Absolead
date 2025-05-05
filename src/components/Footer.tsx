@@ -16,7 +16,7 @@ export const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">AbsoLead</h3>
             <p className="text-gray-400 mb-4">
-              Empowering businesses with innovative marketing solutions since 2010.
+              Empowering businesses with innovative marketing solutions.
             </p>
             <div className="flex space-x-4">
               <a 
