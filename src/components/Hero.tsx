@@ -66,23 +66,7 @@ export const Hero: React.FC = () => {
               </a>
             </div>
 
-            {/* <div className="animate-on-scroll opacity-0 delay-400 mt-8 flex items-center justify-center lg:justify-start">
-              <div className="flex -space-x-2">
-                {[1, 2, 3, 4].map((i) => (
-                  <div
-                    key={i}
-                    className="w-10 h-10 rounded-full border-2 border-white bg-gray-200"
-                    style={{
-                      backgroundImage: '/images/home.jpg',
-                      backgroundSize: "cover",
-                    }}
-                  />
-                ))}
-              </div>
-              <p className="ml-4 text-sm text-gray-600">
-                <span className="font-semibold">500+</span> happy clients
-              </p>
-            </div> */}
+           
           </div>
 
           <div className="w-full lg:w-1/2 relative">

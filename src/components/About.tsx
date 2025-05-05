@@ -52,20 +52,7 @@ export const About: React.FC = () => {
                 At Absolead, we bring structure, speed, and strategic insight to every hiring challenge. Our approach is rooted in understanding your business needs and aligning them with the right talent—whether in tech or non-tech roles. From early-stage startups to established enterprises, clients trust us for our reliability, industry expertise, and commitment to quality hiring outcomes.
               </p>
               
-              <div className="mt-8 flex flex-wrap gap-4">
-                <div className="flex flex-col">
-                  <span className="text-3xl font-bold text-blue-600">500+</span>
-                  <span className="text-gray-600">Successful Placements</span>
-                </div>
-                <div className="flex flex-col">
-                  <span className="text-3xl font-bold text-blue-600">95%</span>
-                  <span className="text-gray-600">Client Satisfaction</span>
-                </div>
-                <div className="flex flex-col">
-                  <span className="text-3xl font-bold text-blue-600">10+</span>
-                  <span className="text-gray-600">Years Experience</span>
-                </div>
-              </div>
+             
             </div>
           </div>
           
