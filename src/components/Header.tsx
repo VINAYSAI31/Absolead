@@ -43,34 +43,34 @@ export const Header: React.FC = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
             <a 
-              href="#features" 
+              href="#" 
               className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300"
             >
-              Features
+              Home
             </a>
             <a 
               href="#about" 
               className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300"
             >
-              About
+              AboutUs
             </a>
             <a 
-              href="#testimonials" 
+              href="#services" 
               className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300"
             >
-              Testimonials
+              Services
             </a>
             <a 
-              href="#pricing" 
+              href="#partner with us" 
               className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300"
             >
-              Pricing
+              Parter with us
             </a>
             <a 
               href="#contact" 
               className="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300"
             >
-              Contact
+              Contact us
             </a>
           </nav>
 

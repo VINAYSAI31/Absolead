@@ -83,8 +83,9 @@ export const Contact: React.FC = () => {
         </div>
 
         <div className="flex flex-col lg:flex-row gap-12 max-w-6xl mx-auto">
-          <div className="w-full lg:w-1/2">
-            <div className="animate-on-scroll slide-in-left-trigger opacity-0 bg-white rounded-xl shadow-lg p-6 md:p-8">
+        <div className="w-full lg:w-1/2 mx-auto">
+
+            <div className="animate-on-scroll slide-in-left-trigger opacity-0 bg-white rounded-xl shadow-lg p-6 md:p-8 ">
               <h3 className="text-2xl font-bold mb-6">Send us a message</h3>
               
               {isSubmitted ? (
@@ -182,56 +183,6 @@ export const Contact: React.FC = () => {
             </div>
           </div>
           
-          <div className="w-full lg:w-1/2">
-            <div className="animate-on-scroll slide-in-right-trigger opacity-0 h-full flex flex-col">
-              {/* <div className="bg-white rounded-xl shadow-lg p-6 md:p-8 mb-6 flex-grow">
-                <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
-                
-                <div className="space-y-6">
-                  <div className="flex items-start">
-                    <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-4 flex-shrink-0">
-                      <MapPin className="text-blue-600" size={20} />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-gray-800">Our Office</h4>
-                      <p className="text-gray-600">
-                        123 Business Avenue, Suite 200<br />
-                        San Francisco, CA 94107
-                      </p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-start">
-                    <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-4 flex-shrink-0">
-                      <Phone className="text-blue-600" size={20} />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-gray-800">Phone</h4>
-                      <p className="text-gray-600">+1 (555) 123-4567</p>
-                      <p className="text-gray-600">Mon-Fri, 9AM-6PM</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-start">
-                    <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mr-4 flex-shrink-0">
-                      <Mail className="text-blue-600" size={20} />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-gray-800">Email</h4>
-                      <p className="text-gray-600">info@absoleadsite.com</p>
-                      <p className="text-gray-600">support@absoleadsite.com</p>
-                    </div>
-                  </div>
-                </div>
-              </div> */}
-              
-              <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-                <div className="aspect-video bg-gray-200 animate-pulse-slow flex items-center justify-center">
-                  <p className="text-gray-500 text-lg">Your Map Here</p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
